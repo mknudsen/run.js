@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Usage: ./run.js <url> <js-one-liner>
+# Usage: ./run-playwright.sh <url> <js-one-liner>
 
 URL="$1"
 JS_ONE_LINER="$2"
@@ -37,3 +37,4 @@ async def main():
 if __name__ == '__main__':
     asyncio.run(main())
 PYTHON_SCRIPT
+"
