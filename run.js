@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Usage: ./run-playwright.sh <url> <js-one-liner>
+# Usage: ./run.js <url> <js-one-liner>
 
 URL="$1"
 JS_ONE_LINER="$2"
