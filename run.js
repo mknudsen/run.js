@@ -16,7 +16,7 @@ from playwright.async_api import async_playwright
 
 async def main():
     if len(sys.argv) < 3:
-        print('Usage: ./run-playwright.sh <url> <js-one-liner>', file=sys.stderr)
+        print('Usage: run.js <url> <js-one-liner>', file=sys.stderr)
         sys.exit(1)
     
     url = sys.argv[1]
